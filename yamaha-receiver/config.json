@@ -19,6 +19,6 @@
     "yamahaurl": "10.0.4.100"
   },
   "schema": {
-    "refresh_token": "str"
+    "yamahaurl": "str"
   }
 }
