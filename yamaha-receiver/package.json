@@ -1,0 +1,23 @@
+{
+  "name": "yamaha-receiver",
+  "version": "1.0.0",
+  "description": "Bridge between yamaha av receivers and hass.io",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/serkanp/yamaha-receiver"
+  },
+  "keywords": [
+    "yamaha",
+    "hassio",
+    "homeassistant"
+  ],
+  "author": "Serkan Polat",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

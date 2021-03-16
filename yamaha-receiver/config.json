@@ -1,0 +1,24 @@
+{
+  "slug": "yamaha_receiver",
+  "name": "Yamaha Receiver Integration",
+  "version": "1.0.0",
+  "url": "https://github.com/serkanp/yamaha-receiver",
+  "stage": "experimental",
+  "description": "Bridge between yamaha av receivers and homeassistant",
+  "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
+  "startup": "services",
+  "boot": "auto",
+  "ports": {
+    "8090/tcp": 8090
+  },
+  "ports_description": {
+    "8090/tcp": "Webservice API"
+  },
+  "map": [],
+  "options": {
+    "yamahaurl": "10.0.4.100"
+  },
+  "schema": {
+    "refresh_token": "str"
+  }
+}
